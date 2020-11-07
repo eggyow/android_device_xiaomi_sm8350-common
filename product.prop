@@ -3,3 +3,6 @@ ro.bpf.kver_override=5.10.239
 
 # Graphics
 debug.graphics.game_default_frame_rate.disabled=true
+
+# RescueParty (Disable it due to high risk of data loss)
+persist.sys.disable_rescue=truegit
