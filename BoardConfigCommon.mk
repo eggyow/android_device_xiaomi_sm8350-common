@@ -53,7 +53,7 @@ BOARD_USES_ALSA_AUDIO := true
 TARGET_NO_BOOTLOADER := true
 
 # Display
-TARGET_SCREEN_DENSITY ?= 436
+TARGET_SCREEN_DENSITY ?= 440
 
 # Dolby Vision
 SOONG_CONFIG_NAMESPACES += dolby_vision
@@ -146,6 +146,9 @@ TARGET_COPY_OUT_PRODUCT := product
 
 # Platform
 TARGET_BOARD_PLATFORM := lahaina
+
+# Power
+TARGET_POWER_LIBPERFMGR_MODE_EXTENSION_LIB := //$(COMMON_PATH):libperfmgr-ext-xiaomi
 
 # Properties
 TARGET_ODM_PROP += $(COMMON_PATH)/odm.prop
