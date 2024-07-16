@@ -319,6 +319,13 @@ PRODUCT_PACKAGES += \
     SystemUIOverlaySM8350 \
     WifiOverlaySM8350
 
+PRODUCT_PACKAGES += \
+    DeviceAsWebcamOverlayCommon
+
+# Parts
+PRODUCT_PACKAGES += \
+    XiaomiParts
+
 # Partitions
 PRODUCT_PACKAGES += \
     vendor_bt_firmware_mountpoint \
