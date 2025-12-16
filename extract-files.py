@@ -58,6 +58,12 @@ blob_fixups: blob_fixups_user_type = {
         .remove_needed('android.hidl.base@1.0.so'),
     ('vendor/lib64/libdpps.so', 'vendor/lib64/libsnapdragoncolor-manager.so'): blob_fixup()
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
+<<<<<<< HEAD
+=======
+    'vendor/lib64/libmisight.so': blob_fixup()
+        .add_needed('libjsoncpp_shim.so')
+        .add_needed('libmisightjson_shim.so'),
+>>>>>>> 1364173 (sm8350-common: Shim _ZN4Json5ValueC1Ex for libmisight)
 }  # fmt: skip
 
 module = ExtractUtilsModule(
