@@ -182,6 +182,7 @@ debug.sf.region_sampling_duration_ns=8333333
 debug.sf.region_sampling_period_ns=99999984
 debug.sf.region_sampling_timer_timeout_ns=99999984
 debug.sf.enable_egl_image_tracker=0
+debug.renderengine.blur_algorithm=kawase2
 ro.hardware.egl=adreno
 debug.renderengine.backend=skiaglthreaded
 ro.hardware.vulkan=adreno
